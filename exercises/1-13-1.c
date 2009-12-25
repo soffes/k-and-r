@@ -16,7 +16,7 @@ main()
 	int cw = 0;
 	int nwords[MAX], i, x, c;
 	
-	for (i = 0; i < 10; ++i) {
+	for (i = 0; i < MAX; ++i) {
 		nwords[i] = 0;
 	}
 	

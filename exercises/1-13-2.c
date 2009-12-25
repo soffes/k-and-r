@@ -16,7 +16,7 @@ main()
 	int nwords[MAX], cw, i, x, a, c, highest;
 	cw = highest = 0;
 	
-	for (i = 0; i < 10; ++i) {
+	for (i = 0; i < MAX; ++i) {
 		nwords[i] = 0;
 	}
 	
