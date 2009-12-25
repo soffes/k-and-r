@@ -4,14 +4,12 @@
 
 #include <stdio.h>
 
-#define BLANK ' '
-
 main()
 {
 	int c, previous;
 	
 	while ((c = getchar()) != EOF) {
-		if (!(previous == BLANK && c == BLANK))
+		if (!(previous == ' ' && c == ' '))
 			putchar(c);	
 		previous = c;
 	}
