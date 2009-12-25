@@ -1,4 +1,4 @@
-// From page 9
+// Section 1.2 Example 1 from page 9
 
 #include <stdio.h>
 
