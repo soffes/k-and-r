@@ -12,6 +12,10 @@ Exercises are named `CHAPTER-NUMBER.c` as they are labeled in the book. Some of 
 
 There are quite possibly better solutions to the exercises than what I have written, as I'm not super proficient in C (yet!). I figure if I type all of the examples and work all of the exercises, I'll be pretty decent at C by the end of the book (and hopefully improved my typing skills as well).
 
+## Conventions
+
+The book doesn't add brackets for one line control structures. This drives me nuts. I have added them for my own sanity, so examples may vary slightly in appearance from those in the book. Their functionality will be identical.
+
 ## License
 
 Feel free to do whatever you want with any of this. It's mainly for my own learning, but I figured I'd share. The example code is probably copy written by the authors of the book. Hopefully I'm not breaking any laws by posting it.
