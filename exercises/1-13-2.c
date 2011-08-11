@@ -5,13 +5,12 @@
 
 #include <stdio.h>
 
-#define MAX 20	/* maximum length of a word */
-#define IN	1	/* inside a word */
-#define OUT	0	/* outside a word */
+#define MAX 20	// Maximum length of a word
+#define IN	1	// Inside a word
+#define OUT	0	// Outside a word
 
-/* vertical histogram of word lengths */
-main()
-{
+// Vertical histogram of word lengths
+main() {
 	int state = OUT;
 	int nwords[MAX], cw, i, x, a, c, highest;
 	cw = highest = 0;

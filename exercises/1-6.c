@@ -3,7 +3,6 @@
 
 #include <stdio.h>
 
-main()
-{
+main() {
 	printf("%d\n", getchar() != EOF);
 }

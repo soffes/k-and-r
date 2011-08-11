@@ -4,9 +4,8 @@
 
 #include <stdio.h>
 
-/* print Fahrenheit-Celsius table */
-main()
-{
+// Print Fahrenheit-Celsius table
+main() {
 	int fahr;
 
 	for (fahr = 300; fahr >= 0; fahr = fahr - 20) {

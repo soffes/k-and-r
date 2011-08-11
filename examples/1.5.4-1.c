@@ -2,12 +2,11 @@
 
 #include <stdio.h>
 
-#define IN	1	/* inside a word */
-#define OUT	0	/* outside a word */
+#define IN	1	// Inside a word
+#define OUT	0	// Outside a word
 
-/* count lines, words, and characters in input */
-main()
-{
+// Count lines, words, and characters in input
+main() {
 	int c, nl, nw, nc, state;
 	
 	state = OUT;

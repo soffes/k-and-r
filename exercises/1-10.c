@@ -3,11 +3,9 @@
 // `\t`, each backspace by a `\b`, and each backslash by a `\\`. This makes the
 // tabs and backspaces visible in an unambiguous way.
 
-
 #include <stdio.h>
 
-main()
-{
+main() {
 	int c;
 	
 	while ((c = getchar()) != EOF) {

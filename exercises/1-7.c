@@ -3,7 +3,6 @@
 
 #include <stdio.h>
 
-main()
-{
+main() {
 	printf("EOF: %d\n", EOF);
 }

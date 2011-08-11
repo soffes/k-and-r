@@ -3,8 +3,7 @@
 
 #include <stdio.h>
 
-main()
-{
+main() {
 	int c, nb, nt, nl;
 	
 	nb = 0;

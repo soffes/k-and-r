@@ -2,9 +2,8 @@
 
 #include <stdio.h>
 
-/* count characters in input; 2nd version */
-main()
-{
+// Count characters in input; 2nd version
+main() {
 	double nc;
 	
 	nc = 0;

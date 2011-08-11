@@ -4,8 +4,7 @@
 
 #include <stdio.h>
 
-main()
-{
+main() {
 	int c, previous;
 	
 	while ((c = getchar()) != EOF) {

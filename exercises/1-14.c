@@ -6,8 +6,7 @@
 
 #define LIMIT 'z'-' '
 
-main()
-{
+main() {
 	int nchars[LIMIT], i, x, c;
 	
 	for (i = 0; i < LIMIT; ++i) {

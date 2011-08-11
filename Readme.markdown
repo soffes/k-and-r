@@ -14,7 +14,7 @@ There are quite possibly better solutions to the exercises than what I have writ
 
 ## Conventions
 
-The book doesn't add brackets for one line control structures. This drives me nuts. I have added them for my own sanity, so examples may vary slightly in appearance from those in the book. Their functionality will be identical.
+The book doesn't add brackets for one line control structures, `/* */` style comments, and some brackets silliness. This drives me nuts. I have tweaked them for my own sanity, so examples may vary slightly in appearance from those in the book. Their functionality will be identical.
 
 ## License
 

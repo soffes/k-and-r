@@ -2,9 +2,8 @@
 
 #include <stdio.h>
 
-/* count lines in input */
-main()
-{
+// Count lines in input
+main() {
 	int c, nl;
 	
 	nl = 0;
