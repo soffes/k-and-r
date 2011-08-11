@@ -1,4 +1,4 @@
-// Section 1.7 Example 1 from page 25
+// Section 1.8 Example 1 from page 27
 
 #include <stdio.h>
 
@@ -14,12 +14,11 @@ main() {
 	return 0;
 }
 
-// Power: raise `base` to n-th power; n >= 0
+// Power: raise `base` to n-th power; n >= 0; version 2
 int power(int base, int n) {
-	int i, p;
+	int p;
 	
-	p = 1;
-	for (i = 1; i <= n; ++i) {
+	for (p = 1; n > 0; --n) {
 		p = p * base;
 	}
 	return p;
